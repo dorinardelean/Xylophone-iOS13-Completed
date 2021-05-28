@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     @IBAction func keyPressed(_ sender: UIButton) {
         
+        print(sender.currentTitle!)
         playSound(soundName: sender.currentTitle!)
         
         //Reduces the sender's (the button that got pressed) opacity to half.

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		532E71BA2660F37D00034873 /* C+.wav in Resources */ = {isa = PBXBuildFile; fileRef = 532E71B92660F37D00034873 /* C+.wav */; };
 		AD937BF622C61DBB002E2D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF522C61DBB002E2D88 /* AppDelegate.swift */; };
 		AD937BF822C61DBB002E2D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */; };
 		AD937BFA22C61DBB002E2D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF922C61DBB002E2D88 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		532E71B92660F37D00034873 /* C+.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "C+.wav"; sourceTree = "<group>"; };
 		AD937BF222C61DBB002E2D88 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD937BF522C61DBB002E2D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		ADE587FA22CB5141007F0F9A /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				532E71B92660F37D00034873 /* C+.wav */,
 				ADE587EE22CB513C007F0F9A /* C.wav */,
 				ADE587F222CB513D007F0F9A /* D.wav */,
 				ADE587EF22CB513D007F0F9A /* E.wav */,
@@ -165,6 +168,7 @@
 				ADE587F922CB513D007F0F9A /* D.wav in Resources */,
 				ADE587F522CB513D007F0F9A /* C.wav in Resources */,
 				ADE587F822CB513D007F0F9A /* B.wav in Resources */,
+				532E71BA2660F37D00034873 /* C+.wav in Resources */,
 				ADE587F322CB513D007F0F9A /* A.wav in Resources */,
 				ADE587F622CB513D007F0F9A /* E.wav in Resources */,
 				AD937BFD22C61DBB002E2D88 /* Main.storyboard in Resources */,

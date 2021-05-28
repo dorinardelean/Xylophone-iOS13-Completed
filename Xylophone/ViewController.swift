@@ -34,7 +34,7 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 0.1) {
             sender.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
         } completion: { _ in
-            UIView.animate(withDuration: 0.5) {
+            UIView.animate(withDuration: 0.3) {
                 sender.transform = CGAffineTransform.identity
             }
         }

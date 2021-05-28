@@ -28,9 +28,16 @@ class ViewController: UIViewController {
     }
     
     @IBAction func keyPressed(_ sender: UIButton) {
-        
-        print(sender.currentTitle!)
         playSound(soundName: sender.currentTitle!)
+        
+        //Animate the button when pressed
+        UIView.animate(withDuration: 0.1) {
+            sender.transform = CGAffineTransform(scaleX: 0.8, y: 0.8)
+        } completion: { _ in
+            UIView.animate(withDuration: 0.5) {
+                sender.transform = CGAffineTransform.identity
+            }
+        }
         
         //Reduces the sender's (the button that got pressed) opacity to half.
         sender.alpha = 0.5

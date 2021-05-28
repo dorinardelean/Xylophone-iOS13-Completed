@@ -11,11 +11,20 @@ import AVFoundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var cButton: UIButton!
+    @IBOutlet weak var dButton: UIButton!
+    @IBOutlet weak var eButton: UIButton!
+    @IBOutlet weak var fButton: UIButton!
+    @IBOutlet weak var gButton: UIButton!
+    @IBOutlet weak var aButton: UIButton!
+    @IBOutlet weak var bButton: UIButton!
+    @IBOutlet weak var cTopButton: UIButton!
+    
     var player: AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        setupButtons()
     }
     
     @IBAction func keyPressed(_ sender: UIButton) {
@@ -39,6 +48,17 @@ class ViewController: UIViewController {
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
         
+    }
+    
+    func setupButtons() {
+        cButton.layer.cornerRadius = 5
+        dButton.layer.cornerRadius = 5
+        eButton.layer.cornerRadius = 5
+        fButton.layer.cornerRadius = 5
+        gButton.layer.cornerRadius = 5
+        aButton.layer.cornerRadius = 5
+        bButton.layer.cornerRadius = 5
+        cTopButton.layer.cornerRadius = 5
     }
     
 }

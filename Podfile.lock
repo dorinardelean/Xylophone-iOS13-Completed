@@ -1,0 +1,16 @@
+PODS:
+  - Piano (1.8)
+
+DEPENDENCIES:
+  - Piano (~> 1.8)
+
+SPEC REPOS:
+  trunk:
+    - Piano
+
+SPEC CHECKSUMS:
+  Piano: 3a625dbc53b4cdb03380506559307081ec5e167c
+
+PODFILE CHECKSUM: 9cc78b17b78b970e22929f35c841c8f31c94bde3
+
+COCOAPODS: 1.10.1

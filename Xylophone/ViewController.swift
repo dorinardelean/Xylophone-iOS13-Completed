@@ -43,7 +43,7 @@ class ViewController: UIViewController {
 //        player.play()
 
         🎹.play([
-            .sound(.asset(name: soundName)),
+            .sound(.asset(name: soundName + "_1")),
             .hapticFeedback(.impact(.light))
             ])
         

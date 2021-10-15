@@ -8,7 +8,7 @@
 
 import UIKit
 import AVFoundation
-import Piano
+//import Piano
 
 class ViewController: UIViewController {
     
@@ -38,14 +38,14 @@ class ViewController: UIViewController {
     
     func playSound(soundName: String) {
 //        You need to put back the Sounds folder and add the wav files for this to work.
-//        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
-//        player = try! AVAudioPlayer(contentsOf: url!)
-//        player.play()
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
+        player = try! AVAudioPlayer(contentsOf: url!)
+        player.play()
 
-        🎹.play([
-            .sound(.asset(name: soundName)),
-            .hapticFeedback(.impact(.light))
-            ])
+//        🎹.play([
+//            .sound(.asset(name: soundName)),
+//            .hapticFeedback(.impact(.light))
+//            ])
         
     }
     

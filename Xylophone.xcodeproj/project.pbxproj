@@ -3,11 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8A604ADBBD5D3CD2F517ED91 /* Pods_Xylophone.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93EC208FFCBC9929B36C0FBF /* Pods_Xylophone.framework */; };
+		AB3A3B4426FFA3AD004661B7 /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4326FFA3AD004661B7 /* A.wav */; };
+		AB3A3B4626FFA3F4004661B7 /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4526FFA3F4004661B7 /* B.wav */; };
+		AB3A3B4826FFA3FB004661B7 /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4726FFA3FB004661B7 /* C.wav */; };
+		AB3A3B4A26FFA406004661B7 /* C+.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4926FFA406004661B7 /* C+.wav */; };
+		AB3A3B4C26FFA40D004661B7 /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4B26FFA40D004661B7 /* D.wav */; };
+		AB3A3B4E26FFA414004661B7 /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4D26FFA414004661B7 /* E.wav */; };
+		AB3A3B5026FFA419004661B7 /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B4F26FFA419004661B7 /* F.wav */; };
+		AB3A3B5226FFA41F004661B7 /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = AB3A3B5126FFA41F004661B7 /* G.wav */; };
 		AD937BF622C61DBB002E2D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF522C61DBB002E2D88 /* AppDelegate.swift */; };
 		AD937BF822C61DBB002E2D88 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */; };
 		AD937BFA22C61DBB002E2D88 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD937BF922C61DBB002E2D88 /* ViewController.swift */; };
@@ -18,8 +25,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		93EC208FFCBC9929B36C0FBF /* Pods_Xylophone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Xylophone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D4C43B0B05AF52C961A79EE /* Pods-Xylophone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xylophone.debug.xcconfig"; path = "Target Support Files/Pods-Xylophone/Pods-Xylophone.debug.xcconfig"; sourceTree = "<group>"; };
+		AB3A3B4326FFA3AD004661B7 /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = A.wav; path = Xylophone/Assets.xcassets/A.dataset/A.wav; sourceTree = SOURCE_ROOT; };
+		AB3A3B4526FFA3F4004661B7 /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = B.wav; path = Xylophone/Assets.xcassets/B.dataset/B.wav; sourceTree = SOURCE_ROOT; };
+		AB3A3B4726FFA3FB004661B7 /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = C.wav; path = Xylophone/Assets.xcassets/C.dataset/C.wav; sourceTree = SOURCE_ROOT; };
+		AB3A3B4926FFA406004661B7 /* C+.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "C+.wav"; path = "Xylophone/Assets.xcassets/C+.dataset/C+.wav"; sourceTree = SOURCE_ROOT; };
+		AB3A3B4B26FFA40D004661B7 /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = D.wav; path = Xylophone/Assets.xcassets/D.dataset/D.wav; sourceTree = SOURCE_ROOT; };
+		AB3A3B4D26FFA414004661B7 /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = E.wav; path = Xylophone/Assets.xcassets/E.dataset/E.wav; sourceTree = SOURCE_ROOT; };
+		AB3A3B4F26FFA419004661B7 /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = F.wav; path = Xylophone/Assets.xcassets/F.dataset/F.wav; sourceTree = SOURCE_ROOT; };
+		AB3A3B5126FFA41F004661B7 /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = G.wav; path = Xylophone/Assets.xcassets/G.dataset/G.wav; sourceTree = SOURCE_ROOT; };
 		AD937BF222C61DBB002E2D88 /* Xylophone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylophone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD937BF522C61DBB002E2D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD937BF722C61DBB002E2D88 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,7 +42,6 @@
 		AD937C0322C61DBE002E2D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADE587E822CB4D36007F0F9A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		ADE587EA22CB5121007F0F9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EED78062A32214ADAC943E98 /* Pods-Xylophone.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Xylophone.release.xcconfig"; path = "Target Support Files/Pods-Xylophone/Pods-Xylophone.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,26 +49,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A604ADBBD5D3CD2F517ED91 /* Pods_Xylophone.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A6DB8248BA8240AE9ACC7B4 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9D4C43B0B05AF52C961A79EE /* Pods-Xylophone.debug.xcconfig */,
-				EED78062A32214ADAC943E98 /* Pods-Xylophone.release.xcconfig */,
-			);
-			path = Pods;
-			sourceTree = "<group>";
-		};
 		AA482FD39294A63572C8DBBB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93EC208FFCBC9929B36C0FBF /* Pods_Xylophone.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -64,6 +65,14 @@
 		ABE290E52662EAAF0067BCF6 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				AB3A3B4726FFA3FB004661B7 /* C.wav */,
+				AB3A3B4B26FFA40D004661B7 /* D.wav */,
+				AB3A3B4D26FFA414004661B7 /* E.wav */,
+				AB3A3B4F26FFA419004661B7 /* F.wav */,
+				AB3A3B5126FFA41F004661B7 /* G.wav */,
+				AB3A3B4326FFA3AD004661B7 /* A.wav */,
+				AB3A3B4526FFA3F4004661B7 /* B.wav */,
+				AB3A3B4926FFA406004661B7 /* C+.wav */,
 			);
 			path = Sounds;
 			sourceTree = "<group>";
@@ -74,7 +83,6 @@
 				ADE587E822CB4D36007F0F9A /* README.md */,
 				AD937BF422C61DBB002E2D88 /* Xylophone */,
 				AD937BF322C61DBB002E2D88 /* Products */,
-				1A6DB8248BA8240AE9ACC7B4 /* Pods */,
 				AA482FD39294A63572C8DBBB /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -109,11 +117,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD937C0622C61DBE002E2D88 /* Build configuration list for PBXNativeTarget "Xylophone" */;
 			buildPhases = (
-				96214016B812348D4970D1B7 /* [CP] Check Pods Manifest.lock */,
 				AD937BEE22C61DBB002E2D88 /* Sources */,
 				AD937BEF22C61DBB002E2D88 /* Frameworks */,
 				AD937BF022C61DBB002E2D88 /* Resources */,
-				59FE39EED31E814F55F365AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -162,56 +168,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3A3B5226FFA41F004661B7 /* G.wav in Resources */,
+				AB3A3B5026FFA419004661B7 /* F.wav in Resources */,
+				AB3A3B4E26FFA414004661B7 /* E.wav in Resources */,
+				AB3A3B4C26FFA40D004661B7 /* D.wav in Resources */,
+				AB3A3B4A26FFA406004661B7 /* C+.wav in Resources */,
 				AD937BFF22C61DBE002E2D88 /* Assets.xcassets in Resources */,
 				ADE587EB22CB5121007F0F9A /* LaunchScreen.storyboard in Resources */,
 				ADE587E922CB4D36007F0F9A /* README.md in Resources */,
+				AB3A3B4626FFA3F4004661B7 /* B.wav in Resources */,
+				AB3A3B4426FFA3AD004661B7 /* A.wav in Resources */,
 				AD937BFD22C61DBB002E2D88 /* Main.storyboard in Resources */,
+				AB3A3B4826FFA3FB004661B7 /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		59FE39EED31E814F55F365AC /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Xylophone/Pods-Xylophone-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Xylophone/Pods-Xylophone-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Xylophone/Pods-Xylophone-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		96214016B812348D4970D1B7 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-Xylophone-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD937BEE22C61DBB002E2D88 /* Sources */ = {
@@ -356,11 +328,11 @@
 		};
 		AD937C0722C61DBE002E2D88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D4C43B0B05AF52C961A79EE /* Pods-Xylophone.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R23KGHVN3H;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,11 +347,11 @@
 		};
 		AD937C0822C61DBE002E2D88 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EED78062A32214ADAC943E98 /* Pods-Xylophone.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R23KGHVN3H;
+				EXCLUDED_ARCHS = arm64;
 				INFOPLIST_FILE = Xylophone/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
